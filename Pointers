@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    char name[1000];
+    cout<<"Enter name ";
+    cin>>name;
+    cout << "You entered: " << name << endl;
+
+}
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+main()
+{
+    int i,j;
+    float fl;
+    int*int_ptr;
+    float*float_ptr;
+    char*char_ptr;
+
+    i = 5;
+    fl=3.14;
+    int_ptr=&i;
+
+    cout<< "*int_ptr "<< *int_ptr<<endl;
+    cout<<"&i="<< &i<<endl;
+    cout<<"int_ptr = "<<int_ptr<<endl;
+
+}
